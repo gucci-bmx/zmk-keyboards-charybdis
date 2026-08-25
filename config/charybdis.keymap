@@ -59,7 +59,50 @@
     chosen {
         zmk,matrix_transform = &five_column_transform;
     };
+combos {
+        compatible = "zmk,combos";
+        timeout-ms = <50>;
 
+        combo_left_click {
+            key-positions = <16 17>;
+            bindings = <&mkp LCLK>;
+        };
+
+        combo_right_click {
+            key-positions = <17 18>;
+            bindings = <&mkp RCLK>;
+        };
+
+        combo_middle_click {
+            key-positions = <16 17 18>;
+            bindings = <&mkp MCLK>;
+        };
+
+        combo_cut {
+            key-positions = <26 27>;
+            bindings = <&kp LC(X)>;
+        };
+
+        combo_paste {
+            key-positions = <27 28>;
+            bindings = <&kp LC(V)>;
+        };
+
+        combo_copy {
+            key-positions = <6 7>;
+            bindings = <&kp LC(C)>;
+        };
+
+        combo_plus {
+            key-positions = <12 13>;
+            bindings = <&kp KP_PLUS>;
+        };
+
+        combo_minus {
+            key-positions = <22 23>;
+            bindings = <&kp MINUS>;
+        };
+    };
     keymap {
         compatible = "zmk,keymap";
 
