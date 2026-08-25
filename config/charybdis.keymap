@@ -56,9 +56,10 @@
         };
     };
 
-    chosen {
-        zmk,matrix_transform = &five_column_transform;
-    };
+chosen {
+    zmk,physical-layout = &charybdis_5col_layout;  
+};
+
 combos {
         compatible = "zmk,combos";
         timeout-ms = <50>;
