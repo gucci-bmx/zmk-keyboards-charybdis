@@ -14,12 +14,13 @@
 
       Base {
     bindings = 
-    &kp N1  &kp N2  &kp N3  &kp N4  &kp N5      &kp N6  &kp N7  &kp N8  &kp N9  &kp N0
-    &kp A   &kp B   &kp C   &kp D   &kp E       &kp F   &kp G   &kp H   &kp I   &kp J
-    &kp K   &kp L   &kp M   &kp N   &kp O       &kp P   &kp Q   &kp R   &kp S   &kp T
-                    &kp U   &kp V   &kp W       &kp X   &kp Y
+    &studio_unlock  &studio_unlock  &studio_unlock  &studio_unlock  &studio_unlock      &studio_unlock  &studio_unlock  &studio_unlock  &studio_unlock  &studio_unlock
+    &studio_unlock  &studio_unlock  &studio_unlock  &studio_unlock  &studio_unlock      &studio_unlock  &studio_unlock  &studio_unlock  &studio_unlock  &studio_unlock
+    &studio_unlock  &studio_unlock  &studio_unlock  &studio_unlock  &studio_unlock      &studio_unlock  &studio_unlock  &studio_unlock  &studio_unlock  &studio_unlock
+                                    &studio_unlock  &studio_unlock  &studio_unlock      &studio_unlock  &studio_unlock
     >;
 };
+
 
         Lower {
             bindings = <
