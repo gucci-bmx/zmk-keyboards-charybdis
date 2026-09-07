@@ -29,7 +29,7 @@ include:
   - board: nice_nano//zmk
     shield: charybdis_left
     snippet: studio-rpc-usb-uart
-    cmake-args: -DCONFIG_ZMK_STUDIO=y
+    cmake-args: -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_USB_LOGGING=y
   - board: nice_nano//zmk
     shield: charybdis_right
     snippet: studio-rpc-usb-uart
