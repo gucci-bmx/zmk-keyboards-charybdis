@@ -21,7 +21,3 @@
         , <&pro_micro 4 GPIO_ACTIVE_HIGH>
         ;
 };
-
-&trackball_split {
-	status = "disabled";
-};
