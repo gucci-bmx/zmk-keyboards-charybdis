@@ -120,10 +120,10 @@ combos {
 
         Layer1 {
             bindings = <
-            &trans        &trans          &trans          &trans      &trans              &trans            &trans             &trans           &trans      &trans  
-            &kp LGUI      &kp LALT        &kp LCTRL       &kp LSHIFT  &trans              &trans    &kp C_PREVIOUS  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_NEXT  
-            &kp C_PREV    &kp C_VOL_DN    &kp C_VOL_UP    &kp C_NEXT  &trans              &trans            &trans             &trans           &trans      &trans  
-                                          &trans          &trans      &trans          &kp C_STOP  &kp C_PLAY_PAUSE  &trans
+            &trans          &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp SLASH               &trans      &trans     &kp UP    &trans           &kp HASH
+            &kp PERCENT     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp TILDE               &hm SEMICOLON LS(SEMICOLON)  &kp LEFT  &kp DOWN  &kp RIGHT  &kp EXCL
+            &kp NUMBER_0    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp DOT                 &trans      &hm RIGHT_BRACKET LEFT_BRACKET     &hm RIGHT_PARENTHESIS LEFT_PARENTHESIS    &hm LS(DOT) LS(COMMA)    &trans
+                                          &trans          &trans      &trans          &trans  &trans  &trans
             >;
         };
 
