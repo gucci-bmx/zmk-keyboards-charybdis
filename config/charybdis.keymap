@@ -8,7 +8,7 @@
 #include <dt-bindings/zmk/input_transform.h>
 
 #define Base 0
-#define Media 1
+#define Layer1 1
 #define Nav 2
 #define Mouse 3
 #define Sym 4
@@ -72,8 +72,13 @@ combos {
         };
 
         combo_middle_click {
-            key-positions = <16 17 18>;
+            key-positions = <16 18>;
             bindings = <&mkp MCLK>;
+        };
+
+        combo_scroll {
+            key-positions = <16 17 18>;
+            bindings = <&mo Nav>;
         };
 
         combo_cut {
@@ -109,11 +114,11 @@ combos {
             &kp Q       &kp W       &kp E         &kp R         &kp T                       &kp Y        &kp U        &kp I       &kp O               &kp P
             &hm LGUI A  &hm LALT S  &hm LCTRL D   &hm LSHIFT F  &kp G                       &kp H  &hm RSHFT J  &hm RCTRL K  &hm RALT L  &hm RGUI MINUS
             &kp Z       &kp X       &kp C         &kp V         &kp B                       &kp N        &kp M    &kp COMMA     &kp DOT         &kp LS(SLASH)
-                                    &kp BACKSPACE  &kp SPACE     &kp LANG2       &kp TAB  &kp ENTER  &kp LANG1
+                                    &kp BACKSPACE  &hm LSHFT SPACE     &hm LCTRL LANG2       &kp TAB  &lt Layer1 ENTER  &hm LALT LANG1
             >;
         };
 
-        Media {
+        Layer1 {
             bindings = <
             &trans        &trans          &trans          &trans      &trans              &trans            &trans             &trans           &trans      &trans  
             &kp LGUI      &kp LALT        &kp LCTRL       &kp LSHIFT  &trans              &trans    &kp C_PREVIOUS  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_NEXT  
