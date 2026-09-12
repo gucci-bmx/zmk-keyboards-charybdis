@@ -59,7 +59,7 @@ chosen {
 
 combos {
         compatible = "zmk,combos";
-        timeout-ms = <50>;
+        timeout-ms = <100>;
 
         combo_left_click {
             key-positions = <16 17>;
