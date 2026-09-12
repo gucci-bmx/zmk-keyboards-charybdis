@@ -103,7 +103,7 @@ combos {
 
         combo_minus {
             key-positions = <22 23>;
-            bindings = <&kp MINUS>;
+            bindings = <&kp KP_MINUS>;
         };
     };
     keymap {
