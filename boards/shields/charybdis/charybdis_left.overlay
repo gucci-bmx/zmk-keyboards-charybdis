@@ -25,3 +25,9 @@
 &trackball_listener {
 	status = "okay";
 };
+
+/ {
+	chosen {
+		zephyr,console = &snippet_studio_rpc_usb_uart;
+	};
+};
