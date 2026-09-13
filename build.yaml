@@ -31,6 +31,9 @@ include:
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
   - board: nice_nano//zmk
+    shield: charybdis_left
+    artifact-name: charybdis_left_no_studio
+  - board: nice_nano//zmk
     shield: charybdis_right
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
