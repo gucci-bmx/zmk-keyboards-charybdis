@@ -105,6 +105,11 @@ combos {
             key-positions = <22 23>;
             bindings = <&kp KP_MINUS>;
         };
+
+        combo_bt_clear {
+            key-positions = <0 1 2>;
+            bindings = <&bt BT_CLR>;
+        };
     };
     keymap {
         compatible = "zmk,keymap";
